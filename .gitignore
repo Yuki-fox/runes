@@ -1,0 +1,95 @@
+# === Visual Studio временные и кэш файлы ===
+*.ipch
+*.db
+*.dll
+*.lib
+*.aps
+*.obj
+*.pch
+*.pdb
+*.idb
+*.log
+*.sdf
+*.cache
+*.ilk
+*.tlh
+*.tli
+*.exp
+*.user
+*.suo
+*.ncb
+
+# === Файлы настроек и проектов ===
+*.filters
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
+
+# === Ресурсы и медиа ===
+*.ico
+*.bmp
+*.rc
+
+# === Архивы и заметки ===
+*.zip
+*.7z
+*.rar
+*.txt
+
+# === Каталоги сборки и кэша ===
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+ipch/
+bin/
+obj/
+out/
+.cache/
+
+# === Компилированные файлы и прочее, как советует гит ===
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+*.dwo
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Fortran modules (вдруг понадобятся)
+*.mod
+*.smod
+
+# === Самое важное: оставить только исходный код ===
+!*.cpp
+!*.c
+!*.h
+!*.hpp
